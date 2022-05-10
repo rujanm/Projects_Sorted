@@ -1,0 +1,44 @@
+.home {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/kitten-v.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/kitten-flying-v.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    font-size: 0.4em;
+    width: auto;
+}
+nav{
+    font-size: 0.4em;
+    width: auto;
+}
+section{
+    font-size: 0.4em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+section > p{
+    font-size: 15px;
+}
+
+
+
+
+

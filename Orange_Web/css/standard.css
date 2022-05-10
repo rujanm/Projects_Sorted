@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+.home {
+font-family: 'Montserrat', sans-serif;
+background-image: url(../images/kitten.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100vw;
+background-position: center;
+background-attachment: fixed;
+}
+.about {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/kitten-flying.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+header{
+    position: fixed;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: auto;
+    height: 6em;
+    position: fixed;
+    transform: translate(-100%,-100%);
+    left: 95%;
+    top: 95%;
+}
+nav > a{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    
+    width: 4em;
+    height: 4em;
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+    font-size: 1.5em;
+    
+}
+#schedule{
+    width: 9ch;
+}
+header > strong{
+    font-size: 3em;
+    display: flex;
+    font-weight: 800! important;
+    text-shadow: 2px 2px 4px black;
+}
+strong > p{
+    color: orange;
+    margin-top: 0%;
+    margin-left: 1ch;
+    margin-right: 1ch;
+}
+section{
+    position: fixed;
+    top: 6em;
+    display: flex;
+    margin-left: 2ch;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+section > img{
+    width: 6em;
+    height: 2em;
+    margin-left: 2ch;
+    transition: 1s;
+}
+section > img:hover{
+    transform: rotateY(360deg);
+}
+
+nav > img{
+    height: 2.5ch;
+    display: none;
+    width: 2.5ch;
+}
+.show{
+    display: flex;
+    position: absolute;
+    transform: translate(100%,0%);
+    bottom: 0.5em;  
+    overflow:hidden;
+}
+#pop{
+    
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    opacity: 50%;
+    padding: 10px;
+    color: orange;
+    
+    
+  }
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    justify-content: flex-start;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  .sup{
+      display: block;
+  }
