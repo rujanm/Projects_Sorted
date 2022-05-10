@@ -1,0 +1,54 @@
+body {
+	background-color: tan;
+}
+
+#business-card, .card {
+	background-color: white;
+	box-shadow: .5em .5em .5em lightgrey;
+	margin-bottom: 1.5em;
+}
+
+#business-card {
+	display: none;
+}
+
+.container {
+	display: flex;
+}
+
+.business-image {
+	width: 30%;
+}
+
+.business-content {
+	width: 70%;
+    display: inline-block;
+    text-align: right;
+    padding: 1.5em;
+}
+
+.business-title {
+	margin: 0;
+	display: inline-block;
+}
+
+.business-rating > img {
+	height: 1.25em;
+}
+
+#pages > a {
+	padding-right: .5em;
+}
+
+#next-btn, #prev-btn {
+	display: none;
+}
+
+.show {
+	display: inline-block !important;
+}
+
+.disappear {
+	display: none;
+}
+
