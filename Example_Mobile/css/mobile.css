@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+#menu{
+    display: block;
+    position: fixed;
+    top: 0.5em;
+    right: 0.5em;
+    color: black;
+}
+
+nav{
+    display: none;
+    flex-direction: column;
+    color:cornsilk;
+    position: fixed;
+    top: 1.5em;
+    right: 1.50em;
+    background-color: black;
+    text-align: center! important;  
+    height: 15em! important; 
+    width: auto! important;
+}
+nav > a {
+	color: white;
+	text-decoration: none;
+    margin-right: 1em;
+    margin-left: 1em;
+	line-height: 0;
+    vertical-align: middle;
+    height: 2em;
+    padding-top: 20%;
+}
+
+
+
+
+.teaser{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 55em;
+}
+main > h1{
+    
+    font-size: 0.70em;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#desktop{
+    white-space: normal;
+    width: 22ch;
+}
+
+.show{
+    display: flex;
+}
+
+main a{
+	border-width:0;
+	padding-top: calc(.5em + 3px);
+	padding-bottom: calc(.5em + 3px);
+	width: calc(20ch + 5px);
+	background: linear-gradient(90deg, blue, lightblue, turquoise);
+    text-shadow: 1px 1px black;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    margin-left: 3em;
+}
+header{
+    
+    width: auto;
+}
+.teaser > div::after {
+	border-right: 0;
+	
+}
+br{
+    display: none;
+}
